@@ -49,7 +49,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="nanoFramework.AtomLite" Version="1.1.90" />
 	  <PackageReference Include="Usb.Net" Version="4.2.1" />
 	</ItemGroup>
 
