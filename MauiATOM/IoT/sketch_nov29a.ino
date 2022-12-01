@@ -1,8 +1,5 @@
 #include "M5Atom.h"
 
-String inputString = "";         // a string to hold incoming data
-boolean stringComplete = false;  // whether the string is complete
-String commandString = "";
 String result = ""; 
 const int BUFFER_SIZE = 50;
 char buf[BUFFER_SIZE];

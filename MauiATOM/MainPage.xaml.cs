@@ -1,18 +1,6 @@
 ﻿using Android.Content;
 using Android.Hardware.Usb;
-using Android.Util;
-using Android.Views;
-using Java.IO;
-using nanoFramework.AtomLite;
-using System.Collections.ObjectModel;
-using System.Numerics;
-using System.Drawing;
-using Color = System.Drawing.Color;
-using Android.OS;
-using Java.Nio;
-using Xamarin.Google.Crypto.Tink.Subtle;
 using Hoho.Android.UsbSerial.Driver;
-using Org.Apache.Http.Authentication;
 using System.Text;
 using Android.App;
 
@@ -32,6 +20,7 @@ public partial class MainPage : ContentPage
         string ACTION_USB_PERMISSION = "com.android.example.USB_PERMISSION";
         Context context = Android.App.Application.Context;
         UsbManager manager = (UsbManager)context.GetSystemService(Context.UsbService);
+
         try
         {
             if (manager.DeviceList.Count == 0)
@@ -64,7 +53,7 @@ public partial class MainPage : ContentPage
         }
         catch (Exception ex)
         {
-            System.Console.WriteLine(ex.Message);
+            Console.WriteLine(ex.Message);
         }
     }
 
