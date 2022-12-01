@@ -61,6 +61,7 @@
 
 	<ItemGroup>
 	  <Folder Include="IoT\" />
+	  <Folder Include="AndroidWirelessDebug\" />
 	</ItemGroup>
 
 </Project>
