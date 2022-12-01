@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiATOM.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Label
+                Text="Choose color"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+            <Button x:Name="LedChange"
+                    Text="Blue"
+                    Clicked="Blue"
+                     HorizontalOptions="Center" 
+                    ></Button>
+
+            <Button x:Name="LedChange2"
+                    Text="Red"
+                    Clicked="Red"
+                     HorizontalOptions="Center" 
+                    ></Button>
+
+            <Button x:Name="LedChange3"
+                    Text="Green"
+                    Clicked="Green"
+                     HorizontalOptions="Center" 
+                    ></Button>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
