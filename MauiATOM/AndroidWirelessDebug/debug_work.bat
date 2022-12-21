@@ -1,4 +1,4 @@
-cd..
+c:
 cd c:\
 cd "Program files (x86)"
 cd Android
